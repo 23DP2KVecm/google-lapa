@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #ffffff;
+    color: #202124;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -66%;
+}
+
+.logo {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    padding: 10px 15px;
+    width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.add-shortcut {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.add-shortcut button {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    background-color: #f1f3f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.add-shortcut span {
+    margin-left: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background: #ffffff;
+}
+
+.customize-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #6596FF;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.customize-btn:hover {
+    background-color: #5077C9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #202124;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.icon-grid {
+    width: 24px;
+    height: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 5px);
+    grid-template-rows: repeat(3, 5px);
+    gap: 2px;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.icon-grid div {
+    width: 6px;
+    height: 6px;
+    background-color: #5f6368;
+    border-radius: 50%;
+}
+
+.top-right {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+}
+
+.icon-wrapper:hover {
+    background-color: rgba(60, 64, 67, 0.1);
+}
